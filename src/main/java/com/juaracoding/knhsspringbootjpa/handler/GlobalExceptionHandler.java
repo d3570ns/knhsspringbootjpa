@@ -36,8 +36,7 @@ public class GlobalExceptionHandler extends ResponseEntityExceptionHandler {
 			lsSubError.add(new ApiValidationError(fieldError.getField(),fieldError.getDefaultMessage(),fieldError.getRejectedValue(),fieldError.getObjectName()));
 		}
 
-		ApiError apiError =
-				new ApiError(HttpStatus.UNPROCESSABLE_ENTITY,ConstantMessage.ERROR_UNPROCCESSABLE,ex,request.getDescription(false),"00001");
+		ApiError apiError = new ApiError(HttpStatus.UNPROCESSABLE_ENTITY,ConstantMessage.ERROR_UNPROCCESSABLE,ex,request.getDescription(false),"00001");
 		apiError.setSubErrors(lsSubError);
 		return ResponseEntity.unprocessableEntity().body(apiError);
 	}

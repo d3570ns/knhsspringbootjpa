@@ -1,8 +1,6 @@
 package com.juaracoding.knhsspringbootjpa.handler;
 
-import lombok.Data;
 
-@Data
 class ApiValidationError {
     private String object;
     private String field;

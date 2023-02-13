@@ -13,7 +13,9 @@ public class Crypto {
         this is defualt encrypt key : mmfd12f438hyu52538b479e2089ddec2f06kh58faafd12f6
         this is defualt encrypt key : bbfd12f438dbf52538b479e2089ddec2g06cb58faafd12f6
      */
-	private static String defaultKey = "aafd12f438cae52538b479e2089ddec2f06cb58faafd12f6";
+    private static String defaultKey = "aafd12f438cae52538b479e2089ddec2f06cb58faafd12f6";
+
+
     public static String performEncrypt(String keyText, String plainText) {
         try{
             byte[] key = Hex.decode(keyText.getBytes());
