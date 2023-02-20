@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="be0bd83b-818d-4f7e-805f-b5a84b40a779" name="Changes" comment="Latihan">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/juaracoding/knhsspringbootjpa/controller/ProvinsiController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/juaracoding/knhsspringbootjpa/model/Provinsi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/juaracoding/knhsspringbootjpa/repo/ProvinsiRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/juaracoding/knhsspringbootjpa/service/ProvinsiService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/juaracoding/knhsspringbootjpa/core/Crypto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/juaracoding/knhsspringbootjpa/core/Crypto.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,23 +73,10 @@
       <recent name="edu.paul._01springbootrestapi" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Application">
+  <component name="RunManager">
     <configuration name="Application" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.juaracoding.knhsspringbootjpa.Application" />
       <module name="knhsspringbootjpa" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Crypto" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.juaracoding.knhsspringbootjpa.core.Crypto" />
-      <module name="knhsspringbootjpa" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.juaracoding.knhsspringbootjpa.core.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -102,11 +94,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.Crypto" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -145,7 +132,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676869771428</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Latihan">
+      <created>1676871027090</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1676871027090</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
