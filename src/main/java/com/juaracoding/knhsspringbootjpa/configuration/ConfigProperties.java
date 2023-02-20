@@ -1,4 +1,13 @@
 package com.juaracoding.knhsspringbootjpa.configuration;
+/*
+Created By IntelliJ IDEA 2022.3.1 (Community Edition)
+Build #IC-223.8214.52, built on December 20, 2022
+@Author User a.k.a. Kevin Nodeston Hasudungan Silalahi
+Java Developer
+Created on 16/02/2023 21:16
+@Last Modified 16/02/2023 21:16
+Version 1.0
+*/
 
 import com.juaracoding.knhsspringbootjpa.core.Crypto;
 import org.springframework.beans.factory.annotation.Value;
@@ -21,6 +30,7 @@ public class ConfigProperties {
     private static String emailAuth;
     private static String emailStartTLSEnable;
     private static String emailSMTPSocketFactoryClass;
+
 
     @Value("${email.username}")
     private void setEmailUserName(String emailUserName) {
